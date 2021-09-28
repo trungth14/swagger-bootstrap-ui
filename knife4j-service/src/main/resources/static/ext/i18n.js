@@ -21,7 +21,7 @@
             }
         }
 
-        if (this.language=="zh"){
+        if (this.language==="zh"){
             this.instance=i18n_instance.zh;
         }else{
             this.instance=i18n_instance.en;
@@ -31,7 +31,7 @@
 
     i18n.prototype={
         getSupportLanguage:function (lang) {
-            if(lang=="en"){
+            if(lang==="en"){
                 return i18n_instance.en;
             }
             return i18n_instance.zh;
